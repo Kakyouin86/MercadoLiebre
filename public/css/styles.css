@@ -140,6 +140,10 @@ li {
     }
 }
 
+
+/*****************************************************/
+
+
 .producto {
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
@@ -153,15 +157,79 @@ li {
 .producto img {
     border: 3px solid black;
     width: 40%;
-    border: 1px solid red;
 }
 
 .producto h2 {
-    border: 1px solid red;
     max-width: 500px;
     text-align: center;
     font-size: 30px;
 }
+
+.descripcion-de-producto {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+
+/*****************************************************/
+
+.ultima-visita {
+    background-color: rgba(219, 197, 31, 0.692);
+    max-height: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.ultima-visita img {
+    border: 3px solid black;
+    width: 20%;
+}
+
+.ultima-visita h2 {}
+
+.ultima-visita h3 {
+    margin: 0;
+}
+
+.ofertas {
+    background-color: rgba(150, 147, 13, 0.692);
+    max-height: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.ofertas img {
+    border: 3px solid black;
+    width: 20%;
+}
+
+.ofertas h2 {}
+
+.ofertas h3 {
+    margin: 0;
+}
+
+
+
+.descripcion-de-producto-ofertas {
+    font-size: 15px;
+}
+
+
+/*****************************************************/
+
 
 .footer p {
     margin-bottom: -10px;
@@ -175,10 +243,11 @@ li {
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     width: 100%;
-    margin: -20px;
+    margin-left: -10px;
+    margin-right: 10px;
 
     .footer1 {
         display: flex;
