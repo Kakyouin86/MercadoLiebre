@@ -11,6 +11,7 @@ Puedo usar !importan si quiero priorizar. Puedo poner class "parrafo parrafo3"
 header {
     background-color: #EAC926;
     margin: -10px;
+    font-weight: bold;
 }
 
 @media(min-width: 768px) {
