@@ -140,6 +140,27 @@ li {
     }
 }
 
+.producto {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.producto img {
+    border: 3px solid black;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.producto h2 {
+    border: 1px solid red;
+    max-width: 500px;
+    text-align: center;
+}
+
 .footer p {
     margin-bottom: -10px;
 }
