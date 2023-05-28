@@ -1,0 +1,68 @@
+/*
+id = # único. Es el prioritario. Clase segunda y el elemento (h1, h2), el último en tenerse en cuenta
+class = . puedo repetir. Se suelen usar siempre class
+Normalize: standariza los estilos
+Puedo usar !importan si quiero priorizar. Puedo poner class "parrafo parrafo3"
+*/
+header {
+    background-color: #EAC926;
+    padding-left: 20px;
+    width: 100%;
+
+    .logo-busqueda {
+        display: flex;
+        justify-content: space-between;
+
+        .barra-de-busqueda {
+            padding-top: 20px;
+        }
+
+        .compra-en-cuotas {
+            padding-top: 10px;
+        }
+    }
+}
+
+.navigator {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: auto;
+
+
+    .direccion {
+        display: flex;
+        align-self: flex-start;
+        padding-left: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin: 5px;
+
+    }
+
+    .selector-1 {
+        list-style-type: none;
+        display: flex;
+        padding: 10px;
+        padding-right: 20px;
+        border: 1px solid #ccc;
+        margin: 5px;
+
+    }
+
+    .selector-2 {
+        list-style-type: none;
+        display: flex;
+        padding: 10px;
+        padding-right: 20px;
+        border: 1px solid #ccc;
+        margin: 5px;
+
+    }
+}
+
+li {
+    padding-left: 10px;
+}
