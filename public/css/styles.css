@@ -137,3 +137,82 @@ li {
         display: none;
     }
 }
+
+.footer {
+    background-color: #EAC926;
+    height: 200px;
+    position: relative;
+    bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+    .footer1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-paga {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer-paga-detalle {
+        display: flex;
+        max-width: 250px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-envio {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer-puntos {
+        display: flex;
+        max-width: 250px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-seguridad {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer-gusta {
+        display: flex;
+        max-width: 250px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-copyright {
+        font-size: 15px;
+        font-weight: bold;
+        max-width: 150px;
+        text-align: center;
+        padding-top: 10px;
+    }
