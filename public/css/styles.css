@@ -319,3 +319,10 @@ li {
         /*border: 1px solid red;*/
     }
 }
+
+.carrousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
