@@ -23,12 +23,12 @@ header {
 
         .barra-de-busqueda {
             padding-top: 12.5px;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
 
         .logo {
             max-width: 200px;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
 
         .compra-en-cuotas {
@@ -36,7 +36,7 @@ header {
             font-size: 20px;
             text-align: right;
             padding-top: 10px;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
     }
 
@@ -51,26 +51,25 @@ header {
         justify-content: space-between;
         flex-direction: row;
         flex: auto;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
 
         .direccion {
             display: flex;
             align-self: flex-start;
             padding-left: 20px;
             padding: 10px;
-            border: 1px solid #ccc;
             margin: 5px;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
 
         .selector-1 {
             list-style-type: none;
             display: flex;
             padding: 10px;
-            padding-right: 20px;
-            border: 1px solid #ccc;
+            padding-left: 200px;
             margin: 5px;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
+            gap: 30px;
         }
 
         .selector-2 {
@@ -78,9 +77,8 @@ header {
             display: flex;
             padding: 10px;
             padding-right: 20px;
-            border: 1px solid #ccc;
             margin: 5px;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
     }
 }
@@ -141,46 +139,43 @@ li {
     }
 }
 
-
 /*****************************************************/
 
-
 .producto {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .producto img {
     border: 3px solid black;
-    width: 70%;
+    width: 30%;
+    float: left;
 }
 
-.producto h2 {
+.producto-al-lado {
     max-width: 500px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    float: right;
 }
 
 .descripcion-de-producto {
-
     font-size: 20px;
     text-align: justify;
     padding-left: 10px;
     padding-right: 30px;
 }
 
-
 /*****************************************************/
 
 .ultima-visita {
-    background-color: rgba(219, 197, 31, 0.692);
-    max-height: 470px;
+    background-color: #ebebeb;
+    max-height: 600px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
     padding-left: 50px;
     width: 100%;
     margin-left: -10px;
@@ -188,7 +183,7 @@ li {
 }
 
 .ultima-visita img {
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     width: 20%;
 }
 
@@ -199,7 +194,7 @@ li {
 }
 
 .ofertas {
-    background-color: rgba(150, 147, 13, 0.692);
+    background-color: #ebebeb;
     max-height: 470px;
     display: flex;
     flex-wrap: wrap;
@@ -221,15 +216,11 @@ li {
     margin: 0;
 }
 
-
-
 .descripcion-de-producto-ofertas {
     font-size: 15px;
 }
 
-
 /*****************************************************/
-
 
 .footer p {
     margin-bottom: -10px;
@@ -241,11 +232,11 @@ li {
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    /*border: 1px solid red;*/
     /*position: fixed;*/
-    bottom: 0;
-    width: 100%;
     margin-left: -10px;
     margin-right: 10px;
 
@@ -253,13 +244,13 @@ li {
         display: flex;
         align-items: center;
         flex-direction: column;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
 
     .footer-paga {
         font-size: 20px;
         font-weight: bold;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
 
     .footer-paga-detalle {
@@ -267,7 +258,7 @@ li {
         max-width: 250px;
         font-size: 15px;
         text-align: center;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
 
     .footer2 {
@@ -318,6 +309,6 @@ li {
         max-width: 150px;
         text-align: center;
         padding-top: 10px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
 }
