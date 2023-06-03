@@ -88,14 +88,15 @@
             <input type="checkbox" id="health" name="interest" value="health"><br>
             <br>
             <label for="birthday">Adjuntar foto</label><br>
-            <form action="upload.php" method="post">
-                <input type="file" name="file" id="file" />
+            <action="upload.php" method="POST" enctype="multipart/form-data">
+                <input type="file" name="image" accept="image/*">
+                <button type="submit">Upload</button><br>
                 <br>
                 <label for="password">Contraseña</label><br>
                 <input type="password" id="password" name="password"><br>
                 <br>
-                <label for="password">Confirmar contraseña</label><br>
-                <input type="password" id="password" name="password"><br>
+                <label for="password2">Confirmar contraseña</label><br>
+                <input type="password" id="password2" name="password2"><br>
                 <br>
                 <label for="submit">Submitir</label><br>
                 <input type="submit"><br>
@@ -103,7 +104,7 @@
                 <label for="reset">Resetar</label><br>
                 <input type="reset"><br>
                 <br>
-            </form>
+        </form>
     </main>
     <div class="breaks-espacios"> <br></div>
 
