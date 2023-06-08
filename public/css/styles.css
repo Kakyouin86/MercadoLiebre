@@ -13,7 +13,10 @@ Puedo usar !importan si quiero priorizar. Puedo poner class "parrafo parrafo3"
     padding: 0;
 }
 
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 @media(min-width: 768px) {
     header {
@@ -35,7 +38,10 @@ Puedo usar !importan si quiero priorizar. Puedo poner class "parrafo parrafo3"
         }
 
         .logo {
-            max-width: 200px;
+            max-width: 2000px;
+            width: 20dvw;
+            padding-top: 10px;
+            display: flex;
             /*border: 1px solid red;*/
         }
 
@@ -76,8 +82,8 @@ Puedo usar !importan si quiero priorizar. Puedo poner class "parrafo parrafo3"
             padding: 10px;
             padding-left: 200px;
             margin: 5px;
-            /*border: 1px solid red;*/
             gap: 30px;
+            /*border: 1px solid red;*/
         }
 
         .selector-2 {
@@ -115,12 +121,15 @@ li {
         padding-bottom: 10px;
 
         .barra-de-busqueda {
-            padding-top: 12.5px;
+            padding-left: 20px;
             /*border: 1px solid red;*/
         }
 
         .logo {
-            max-width: 100px;
+            max-width: 1000px;
+            width: 20dvw;
+            padding-top: 10px;
+            display: flex;
             /*border: 1px solid red;*/
         }
 
@@ -439,8 +448,7 @@ li {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-
+        width: 100%;
     }
 
     .background-login-register {
@@ -560,8 +568,7 @@ li {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-
+        width: 100%;
     }
 
     .background-login-register {
