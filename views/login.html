@@ -18,7 +18,8 @@
 <body>
     <header class="main-header">
         <div class="logo-busqueda-compra">
-            <img src="images/logo-mercado-liebre.svg" class="logo">
+            <a class="barra_superior_item" aria-current="page" href="/home"><img src="images/logo-mercado-liebre.svg"
+                    class="logo"></a>
             <form action="form-result.php" class="barra-de-busqueda" method="post" target="_blank">
                 <p>
                     <input type="search" name="busquedamusica" placeholder="Buscar productos, marcas, etc.">
@@ -46,13 +47,14 @@
             </ul>
 
             <ul class="selector-2">
-                <a href="views/register.html">
+                <a class="barra_superior_item" aria-current="page" href="/register">
                     <li>Creá tu cuenta&nbsp<i class="fa-regular fa-address-card"></i></li>
                 </a>
-                <li>Ingresá&nbsp<i class="fa-solid fa-right-to-bracket"></i></li>
+                <a class="barra_superior_item" aria-current="page" href="/login">
+                    <li>Ingresá&nbsp<i class="fa-solid fa-right-to-bracket"></i></li>
+                </a>
                 <li>Mis compras&nbsp<i class="fa-solid fa-basket-shopping"></i></li>
             </ul>
-
         </nav>
     </header>
 
