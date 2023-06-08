@@ -161,96 +161,6 @@ li {
 
 /*****************************************************/
 
-.producto {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 30px;
-}
-
-.producto img {
-    border: 3px solid black;
-    width: 30%;
-    float: left;
-}
-
-.producto-al-lado {
-    max-width: 500px;
-    text-align: center;
-    font-size: 20px;
-    float: right;
-}
-
-.descripcion-de-producto {
-    font-size: 20px;
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 30px;
-}
-
-/*****************************************************/
-
-.basado-en {
-    background-color: #ebebeb;
-    font-size: 30px;
-    padding: 5px 0px 5px 30px;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-}
-
-.ultima-visita {
-    background-color: #ebebeb;
-    max-height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    padding-left: 50px;
-    width: 100%;
-    gap: 40px;
-}
-
-.ultima-visita img {
-    border-bottom: 1px solid gray;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
-.producto-ultima-visita {
-    max-width: 300px;
-    border-bottom: 1px solid gray;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
-}
-
-.producto-ultima-visita h3 {
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.precios {
-    font-weight: bolder;
-    font-size: 25px;
-    padding-bottom: 5px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.ultima-visita h3 {
-    margin: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.breaks-espacios {
-    background-color: #ebebeb;
-}
-
-.off {
-    color: #3d6615;
-}
-
-/*****************************************************/
-
 @media(max-width: 767.9px) {
     .footer {
         background-color: #EAC926;
@@ -258,8 +168,7 @@ li {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-        position: absolute;
-        bottom: 0;
+        margin-top: auto;
 
         .footer1 {
             margin-top: 10px;
@@ -340,16 +249,14 @@ li {
 @media(min-width: 768px) {
     .footer {
         background-color: #EAC926;
-        height: 150px;
+        max-height: 220px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 200px;
-        /*border: 1px solid red;*/
-        /*position: fixed;*/
+        gap: 30px;
         width: 100%;
         padding-top: 25px;
-        position: absolute;
+        margin-top: auto;
         bottom: 0;
 
         .footer1 {
@@ -426,21 +333,254 @@ li {
     }
 }
 
-.carrousel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+@media(max-width: 767.9px) {
 
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*****************************************************/
+
+    .producto {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 30px;
+    }
+
+    .producto img {
+        border: 3px solid black;
+        display: block;
+        max-width: 40%;
+        max-height: 40%;
+        width: auto;
+        height: auto;
+        float: left;
+    }
+
+    .producto-al-lado {
+        max-width: 500px;
+        text-align: center;
+        font-size: 20px;
+        float: right;
+    }
+
+    .descripcion-de-producto {
+        font-size: 20px;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    /*****************************************************/
+
+    .basado-en {
+        background-color: #ebebeb;
+        font-size: 20px;
+        padding: 5px 0px 5px 5px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+
+    .ultima-visita {
+        background-color: #ebebeb;
+        max-height: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-left: 5px;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .ultima-visita img {
+        border-bottom: 1px solid gray;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .producto-ultima-visita {
+        max-width: 300px;
+        border-bottom: 1px solid gray;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .producto-ultima-visita h3 {
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .precios {
+        font-weight: bolder;
+        font-size: 25px;
+        padding-bottom: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .ultima-visita h3 {
+        margin: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .breaks-espacios {
+        background-color: #ebebeb;
+    }
+
+    .off {
+        color: #3d6615;
+    }
+
+    .carrousel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+
+    }
+
+    .background-login-register {
+        background-color: #ebebeb;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background {
+        background-color: #ebebeb;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: larger;
+    }
 }
 
-.background {
-    background-color: #ebebeb;
-}
+@media(min-width: 768px) {
 
-.form {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: larger;
+    /*****************************************************/
+
+    .producto {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 30px;
+    }
+
+    .producto img {
+        border: 3px solid black;
+        width: 30%;
+        float: left;
+    }
+
+    .producto-al-lado {
+        max-width: 500px;
+        text-align: center;
+        font-size: 20px;
+        float: right;
+    }
+
+    .descripcion-de-producto {
+        font-size: 20px;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    /*****************************************************/
+
+    .basado-en {
+        background-color: #ebebeb;
+        font-size: 30px;
+        padding: 5px 0px 5px 30px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+
+    .ultima-visita {
+        background-color: #ebebeb;
+        max-height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding-left: 50px;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .ultima-visita img {
+        border-bottom: 1px solid gray;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .producto-ultima-visita {
+        max-width: 300px;
+        border-bottom: 1px solid gray;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .producto-ultima-visita h3 {
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .precios {
+        font-weight: bolder;
+        font-size: 25px;
+        padding-bottom: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .ultima-visita h3 {
+        margin: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .breaks-espacios {
+        background-color: #ebebeb;
+    }
+
+    .off {
+        color: #3d6615;
+    }
+
+    .carrousel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+
+    }
+
+    .background-login-register {
+        background-color: #ebebeb;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background {
+        background-color: #ebebeb;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: larger;
+    }
 }
