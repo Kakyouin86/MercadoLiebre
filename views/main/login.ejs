@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs', {title:"Login"}) %>
+
+    <body>
+        <!-- head -->
+        <%- include('../partials/header.ejs') %>
+
+            <body class="background-login-register">
+                <form class="form">
+                    <br>
+                    <label for="username">Nombre de usuario</label><br>
+                    <input type="text" id="username" name="username" placeholder="Kakyouin"><br>
+                    <br>
+                    <label for="password">Contraseña</label><br>
+                    <input type="password" id="password" name="password" placeholder="******"><br>
+                    <br>
+                    <button type="submit">Entrar</font-size></button>
+                </form>
+            </body>
+            <div class="breaks-espacios"> <br></div>
+            <%- include('../partials/footer.ejs') %>
+                <script src="https://kit.fontawesome.com/e48319c1bd.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
