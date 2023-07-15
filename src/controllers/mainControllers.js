@@ -15,5 +15,9 @@ const mainController = {
     {
         res.render('main/register');
     },
+    productos: (req, res) =>
+    {
+        res.render('main/productos');
+    },
 }
 module.exports = mainController;
