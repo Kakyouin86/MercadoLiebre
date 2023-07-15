@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs', {title:"ML: Vender"}) %>
+
+    <body>
+        <!-- head -->
+        <%- include('../partials/header.ejs') %>
+            <main class="background-login-register">
+                <form class="form">
+                    <br>
+                    <label for="name">Nombre y apellido</label><br>
+                    <input type="text" id="name" name="name" placeholder="Leo Monge"><br>
+                    <br>
+                    <label for="user">Nombre de usuario</label><br>
+                    <input type="text" id="user" name="user"><br>
+                    <br>
+                    <label for="birthday">Fecha de nacimiento</label><br>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    <br>
+                    <label for="address">Domicilio</label><br>
+                    <input type="text" id="address" name="address"><br>
+                    <br>
+                    <label for="profile">Perfil del usuario</label><br>
+                    <label for="interests">Comprador</label>
+                    <input type="radio" id="buyer" name="profile" value="buyer"><br>
+                    <label for="interests">Vendedor</label>
+                    <input type="radio" id="seller" name="profile" value="seller"><br>
+                    <br>
+                    <label for="interests">Intereses</label><br>
+                    <label for="electro">Electro</label>
+                    <input type="checkbox" id="electro" name="interest" value="electro"><br>
+                    <label for="fashion">Moda</label>
+                    <input type="checkbox" id="fashion" name="interest" value="fashion"><br>
+                    <label for="home">Hogar</label>
+                    <input type="checkbox" id="home" name="interest" value="home"><br>
+                    <label for="toys">Juguetería</label>
+                    <input type="checkbox" id="toys" name="interest" value="toys"><br>
+                    <label for="health">Vida sana</label>
+                    <input type="checkbox" id="health" name="interest" value="health"><br>
+                    <br>
+                    <label for="birthday">Adjuntar foto</label><br>
+                    <action="upload.php" method="POST" enctype="multipart/form-data">
+                        <input type="file" name="image" accept="image/*">
+                        <button type="submit">Upload</button><br>
+                        <br>
+                        <label for="password">Contraseña</label><br>
+                        <input type="password" id="password" name="password"><br>
+                        <br>
+                        <label for="password2">Confirmar contraseña</label><br>
+                        <input type="password" id="password2" name="password2"><br>
+                        <br>
+                        <label for="submit">Submitir</label><br>
+                        <input type="submit"><br>
+                        <br>
+                        <label for="reset">Resetar</label><br>
+                        <input type="reset"><br>
+                        <br>
+                </form>
+            </main>
+            <div class="breaks-espacios"> <br></div>
+            <%- include('../partials/footer.ejs') %>
+                <script src="https://kit.fontawesome.com/e48319c1bd.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>

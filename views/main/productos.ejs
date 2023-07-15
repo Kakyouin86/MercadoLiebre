@@ -11,19 +11,32 @@
     <body>
         <!-- head -->
         <%- include('../partials/header.ejs') %>
-
-            <article class="ultima-visita">
-                <div class="producto-ultima-visita-ofertas">
-                    <img src="/images/img-macbook-pro-2019.jpg" alt="">
-                    <p class="descripcion-de-producto-ultima">
-                    <h3 class="precios">$230.000</h3>
-                    <h3>MacBook Pro 2019</h3>
-                    <h3 class="off">20% off</h3>
-                    <h3><i class="fa-solid fa-truck" style="color: #3d6615;"></i> Envío gratis</h3>
-                    <br>
-                </div>
+            <article class="ultima-visita-ofertas">
+                <% for (let i=0;i<datos.length;i++) { if (datos[i].discount !='0' ) { %>
+                    <div class="producto-ultima-visita-ofertas">
+                        <img src="/images/<%= datos[i].thumbnail%>" alt="">
+                        <p class="descripcion-de-producto-ultima">
+                        <h3 class="precios">$ <%=datos[i].price%>
+                        </h3>
+                        <h3>
+                            <%= datos[i].title %>
+                        </h3>
+                        <h3 class="off">
+                            <% if (datos[i].discount !='0' ) {%>
+                                Off %<%=datos[i].discount%>
+                                    <%}%>
+                        </h3>
+                        <h3><i class="fa-solid fa-truck" style="color: #3d6615;"></i>
+                            <% if (datos[i].freeShipping=='yes' ) {%>
+                                Envío gratis
+                                <%} else {%>
+                                    Envío no gratis
+                                    <%}%>
+                        </h3>
+                        <br>
+                    </div>
+                    <%}}%>
             </article>
-
             <%- include('../partials/footer.ejs') %>
                 <script src="https://kit.fontawesome.com/e48319c1bd.js" crossorigin="anonymous"></script>
     </body>

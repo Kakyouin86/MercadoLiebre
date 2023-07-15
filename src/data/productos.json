@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "price": "230.000",
+        "title": "Mac Book Pro",
+        "discount": "20",
+        "thumbnail": "img-macbook-pro-2019.jpg",
+        "freeShipping": "yes",
+        "last-Visit": "yes"
+    },
+    {
+        "id": 2,
+        "price": "100.000",
+        "title": "Cafetera Moulinex",
+        "discount": "10",
+        "thumbnail": "img-cafetera-moulinex.jpg",
+        "freeShipping": "no",
+        "last-Visit": "yes"
+    },
+    {
+        "id": 3,
+        "price": "300.000",
+        "title": "TV Samsung Smart",
+        "discount": "0",
+        "thumbnail": "img-tv-samsung-smart.jpg",
+        "freeShipping": "yes",
+        "last-Visit": "yes"
+    },
+    {
+        "id": 4,
+        "price": "280.000",
+        "title": "Samsung Galaxy S10",
+        "discount": "15",
+        "thumbnail": "img-samsung-galaxy-s10.jpg",
+        "freeShipping": "no",
+        "last-Visit": "no"
+    },
+    {
+        "id": 5,
+        "price": "30.000",
+        "title": "Mac Book Pro",
+        "discount": "60",
+        "thumbnail": "img-macbook-pro-2019.jpg",
+        "freeShipping": "no",
+        "last-Visit": "no"
+    },
+    {
+        "id": 6,
+        "price": "500.000",
+        "title": "Cafetera Moulinex",
+        "discount": "0",
+        "thumbnail": "img-cafetera-moulinex.jpg",
+        "freeShipping": "yes",
+        "last-Visit": "yes"
+    },
+    {
+        "id": 7,
+        "price": "300.000",
+        "title": "TV Samsung Smart",
+        "discount": "10",
+        "thumbnail": "img-tv-samsung-smart.jpg",
+        "freeShipping": "yes",
+        "last-Visit": "no"
+    },
+    {
+        "id": 8,
+        "price": "280.000",
+        "title": "Samsung Galaxy S10",
+        "discount": "15",
+        "thumbnail": "img-samsung-galaxy-s10.jpg",
+        "freeShipping": "yes",
+        "last-Visit": "yes"
+    },
+    {
+        "id": 9,
+        "price": "10.000",
+        "title": "TV Samsung Smart",
+        "discount": "10",
+        "thumbnail": "img-tv-samsung-smart.jpg",
+        "freeShipping": "yes",
+        "last-Visit": "yes"
+    }
+]

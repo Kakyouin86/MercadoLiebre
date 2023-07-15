@@ -1,7 +1,11 @@
+const fs = require('fs');
+const path = require('path');
+//const data = fs.readFileSync(path.join(__dirname, '../data/productos.json'), 'utf8');
+const datos = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/productos.json'), 'utf8'));
 const mainController = {
     index: (req, res) =>
     {
-        res.render('main/home');
+        res.render('main/home', { datos: datos });
     },
     login: (req, res) =>
     {
@@ -17,7 +21,11 @@ const mainController = {
     },
     productos: (req, res) =>
     {
-        res.render('main/productos');
+        res.render('main/productos', { datos: datos });
+    },
+    vender: (req, res) =>
+    {
+        res.render('main/vender', { datos: datos });
     },
 }
 module.exports = mainController;

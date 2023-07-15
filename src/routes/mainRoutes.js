@@ -6,4 +6,5 @@ router.get('/login', mainController.login);
 router.get('/producto', mainController.producto);
 router.get('/register', mainController.register);
 router.get('/productos', mainController.productos);
+router.get('/vender', mainController.vender);
 module.exports = router;

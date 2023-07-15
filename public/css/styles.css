@@ -412,6 +412,25 @@ li {
         width: 90%;
     }
 
+    .ultima-visita-ofertas {
+        background-color: #ebebeb;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: space-between;
+        justify-content: center;
+        padding-left: 5px;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .ultima-visita-ofertas img {
+        border-bottom: 1px solid gray;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
     .producto-ultima-visita {
         max-width: 300px;
         border-bottom: 1px solid gray;
@@ -424,14 +443,36 @@ li {
         font-family: 'Roboto', sans-serif;
     }
 
+    .producto-ultima-visita-ofertas {
+        max-width: 300px;
+        border-bottom: 1px solid gray;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .producto-ultima-visita-ofertas h3 {
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
     .precios {
         font-weight: bolder;
         font-size: 25px;
         padding-bottom: 5px;
         font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
     }
 
     .ultima-visita h3 {
+        margin: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .ultima-visita-ofertas h3 {
         margin: 10px;
         font-family: 'Roboto', sans-serif;
     }
@@ -532,6 +573,20 @@ li {
         width: 90%;
     }
 
+    .ultima-visita-ofertas {
+        background-color: #ebebeb;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .ultima-visita-ofertas img {
+        border-bottom: 1px solid gray;
+        display: block;
+        width: 90%;
+    }
+
     .producto-ultima-visita {
         max-width: 300px;
         border-bottom: 1px solid gray;
@@ -544,11 +599,28 @@ li {
         font-family: 'Roboto', sans-serif;
     }
 
+    .producto-ultima-visita-ofertas {
+        max-width: 300px;
+        border-bottom: 1px solid gray;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .producto-ultima-visita-ofertas h3 {
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
     .precios {
         font-weight: bolder;
         font-size: 25px;
         padding-bottom: 5px;
         font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
     }
 
     .ultima-visita h3 {

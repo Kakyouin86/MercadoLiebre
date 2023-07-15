@@ -9,7 +9,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(mainRoutes);
 app.listen(port, () => { console.log("Servidor corriendo en puerto 3000") });
 
-
+//npm install -g nodemon --save-dev
 //app.get('/', (req, res) => { res.sendFile(path.resolve(__dirname, './views/main/home.ejs')) });
 //app.get('/', (req, res) => { res.sendFile((__dirname + '/views/home.html')) });
 /*
